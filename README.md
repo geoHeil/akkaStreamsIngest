@@ -1,6 +1,6 @@
 # bitStream comparison
 Real-time stream of different bitCoin courses, published to kafka and then compared in streaming engine 
-for arbitrage opportunities
+for arbitrage opportunities as an akka streams starter.
 
 use `sbt console`to interactively run queries
 
