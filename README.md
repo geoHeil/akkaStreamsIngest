@@ -7,6 +7,12 @@ use `sbt console`to interactively run queries
 or `sbt run`. For the stream-processing part make sure to set `$SBT_OPTS -Xmx8G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xss2M`
 as spark/flink/beam will be launched inside sbt 
 
+**requirements**
+
+- jdk8
+- sbt
+- docker
+- kafkacat
 
 **using it***
 
