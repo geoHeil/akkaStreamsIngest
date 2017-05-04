@@ -21,7 +21,7 @@ scalacOptions ++= Seq(
 
 logBuffered in Test := false
 
-val akkaVersion = "2.4.17"
+val akkaVersion = "2.4.18"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,

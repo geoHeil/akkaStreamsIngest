@@ -85,7 +85,6 @@ object WebSocketClientFlow extends App {
       Future.successful(Done)
     } else {
       throw new RuntimeException(s"Connection failed: ${upgrade.response.status}")
-      system.terminate
     }
   }
 
