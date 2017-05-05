@@ -19,7 +19,7 @@ as spark/flink/beam will be launched inside sbt
 start kafka
 ```
 docker-compose up -d
-sbt run # choose 2
+sbt run # choose 3
 sbt console
 ```
 check connectivity
@@ -32,5 +32,5 @@ you can send some simple messages over kafka and see the output
 **connect a real stream**
 Lets connect a real stream
 ```
-sbt run
+sbt run # 3
 ```
